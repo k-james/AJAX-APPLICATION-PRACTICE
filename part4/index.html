@@ -12,7 +12,7 @@
             $.ajax({
                 type: 'get',
                 url: 'json.js',
-                timeout: 10000,
+                timeout: 40000,
                 dataType: 'xml',
                 beforeSend: function(){ $('#result').html('loading...'); },
                 error: function(xhr, status, error){
